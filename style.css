@@ -1,1 +1,65 @@
 
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #C2185B; /* Rosa escuro */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main {
+    background-color: #FCE4EC; /* Rosa claro */
+    color: #880E4F; /* Tom escuro para leitura */
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    background-color: #FFFFFF;
+    border: 2px solid #C2185B; /* Rosa escuro */
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.artigo-autor {
+    font-weight: bold;
+}
+
+.artigo-fonte {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+button {
+    background-color: #FCE4EC;
+    border: 1px solid #C2185B;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin: 4px;
+}
